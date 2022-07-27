@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+        charset="UTF-8"
+        delimiter=","
+        header="true"
+        locale="en_US"
+        quote="&quot;"
+        timezone="UTC"
+        type="text"
+        />
+    <columns>
+        <column name="product" type="String"/>
+        <column name="location" type="String"/>
+        <column format="yyyy-MM-dd" name="startDate" type="date"/>
+        <column name="duration" type="long"/>
+        <column name="planParentType" type="String"/>
+        <column name="planType" type="String"/>
+        <column name="quantity" type="double"/>
+        <column name="quantityUnits" type="String"/>
+        <column name="planningCycle" type="String"/>
+        <column name="source" type="String"/>
+        <column name="sourceLink" type="String"/>
+    </columns>
+</metadata>

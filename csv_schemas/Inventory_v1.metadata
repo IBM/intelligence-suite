@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+        charset="UTF-8"
+        delimiter=","
+        header="true"
+        locale="en_US"
+        quote="&quot;"
+        timezone="UTC"
+        type="text"
+        />
+    <columns>
+        <column name="product" type="String"/>
+        <column name="location" type="String"/>
+        <column name="inventoryType" type="String"/>
+        <column name="quantity" type="double"/>
+        <column name="quantityUnits" type="String"/>
+        <column name="value" type="double"/>
+        <column name="valueCurrency" type="String"/>
+        <column name="reservationOrders" type="double"/>
+        <column name="daysOfSupply" type="double"/>
+        <column name="shelfLife" type="double"/>
+        <column name="reorderLevel" type="double"/>
+        <column name="expectedLeadTime" type="long"/>
+        <column name="quantityUpperThreshold" type="double"/>
+        <column name="quantityLowerThreshold" type="double"/>
+        <column name="daysOfSupplyUpperThreshold" type="double"/>
+        <column name="daysOfSupplyLowerThreshold" type="double"/>
+        <column name="expiringThreshold" type="double"/>
+        <column name="plannerCode" type="String"/>
+        <column name="velocityCode" type="String"/>
+        <column name="inventoryParentType" type="String"/>
+        <column name="class" type="String"/>
+        <column name="segment" type="String"/>
+    </columns>
+</metadata>

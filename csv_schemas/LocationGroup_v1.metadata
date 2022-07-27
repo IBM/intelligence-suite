@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+        charset="UTF-8"
+        delimiter=","
+        header="true"
+        locale="en_US"
+        quote="&quot;"
+        timezone="UTC"
+        type="text"
+        />
+    <columns>
+        <column name="locationGroupIdentifier" type="String"/>
+        <column name="locations" type="String"/>
+        <column name="locationGroupType" type="String"/>
+        <column name="locationGroupName" type="String"/>
+        <column name="sourceLink" type="String"/>
+    </columns>
+</metadata>

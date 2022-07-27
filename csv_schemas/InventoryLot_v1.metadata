@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+            charset="UTF-8"
+            delimiter=","
+            header="true"
+            locale="en_US"
+            quote="&quot;"
+            timezone="UTC"
+            type="text"
+    />
+    <columns>
+        <column name="product" type="String"/>
+        <column name="location" type="String"/>
+        <column name="inventoryType" type="String"/>
+        <column name="quantity" type="double"/>
+        <column name="quantityUnits" type="String"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="expirationDate" type="datetime"/>
+        <column name="inventoryParentType" type="String"/>
+        <column name="class" type="String"/>
+        <column name="segment" type="String"/>
+        <column name="lotCode" type="String"/>
+        <column name="status" type="String"/>
+        <column name="value" type="double"/>
+        <column name="valueCurrency" type="String"/>
+        <column name="sourceLink" type="String"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="storageDate" type="datetime"/>
+    </columns>
+</metadata>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+        charset="US-ASCII"
+        delimiter=","
+        header="true"
+        locale="en_US"
+        quote="&quot;"
+        timezone="UTC"
+        type="text"
+        />
+    <columns>
+        <column name="partNumber" type="String"/>
+        <column name="productType" type="String"/>
+        <column name="category" type="String"/>
+        <column name="brand" type="String"/>
+        <column name="family" type="String"/>
+        <column name="line" type="String"/>
+        <column name="productSegment" type="String"/>
+        <column name="status" type="String"/>
+        <column name="value" type="double"/>
+        <column name="valueCurrency" type="String"/>
+        <column name="defaultQuantityUnits" type="String"/>
+        <column name="name" type="String"/>
+        <column name="description" type="String"/>
+        <column name="plannerCode" type="String"/>
+        <column name="sourceLink" type="String"/>
+    </columns>
+</metadata>

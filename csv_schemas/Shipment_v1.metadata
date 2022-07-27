@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+    <attributes
+        charset="UTF-8"
+        delimiter=","
+        header="true"
+        locale="en_US"
+        quote="&quot;"
+        timezone="UTC"
+        type="text"
+        />
+    <columns>
+        <column name="shipmentIdentifier" type="String"/>
+        <column name="shipmentType" type="String"/>
+        <column name="shipFromLocation" type="String"/>
+        <column name="shipToLocation" type="String"/>
+        <column name="vendor" type="String"/>
+        <column name="buyer" type="String"/>
+        <column name="carrier" type="String"/>
+        <column name="status" type="String"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="dateCreated" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="requestedTimeOfArrival" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="committedTimeOfArrival" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="actualShipDate" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="estimatedTimeOfArrival" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="revisedEstimatedTimeOfArrival" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="predictedTimeOfArrival" type="datetime"/>
+        <column format="yyyy-MM-dd&apos;T&apos;HH:mm:ss" name="actualTimeOfArrival" type="datetime"/>
+        <column name="lineCount" type="long"/>
+        <column name="weight" type="String"/>
+        <column name="weightUnits" type="String"/>
+        <column name="currentLocationCoordinates" type="String"/>
+        <column name="currentRegion" type="String"/>
+        <column name="transportMode" type="String"/>
+        <column name="houseAirwayBill" type="String"/>
+        <column name="parcelTrackingNumber" type="String"/>
+        <column name="airwayMasterNumber" type="String"/>
+        <column name="billOfLadingNumber" type="String"/>
+        <column name="proNumber" type="String"/>
+        <column name="manifest" type="String"/>
+        <column name="exclude" type="String"/>
+        <column name="sourceLink" type="String"/>
+    </columns>
+</metadata>
